@@ -1,21 +1,24 @@
 .skills {
-    padding: 80px 20px;
-    background-color: #f0f0f0;
-    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #ffffff;
   }
   
   .skills h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+    text-align: center;
+    color: #1e3c72;
+    margin-bottom: 2rem;
   }
   
-  .skills ul {
-    list-style-type: none;
-    padding: 0;
+  .skills-list {
+    display: grid;
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: auto;
   }
   
-  .skills li {
-    font-size: 1.1rem;
-    margin: 10px 0;
+  .skills-list div {
+    background: #f0f4f8;
+    padding: 1rem;
+    border-radius: 12px;
   }
   
