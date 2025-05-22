@@ -1,0 +1,41 @@
+.education {
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .education h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .education ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .education li {
+    margin: 10px 0;
+    font-size: 1.1rem;.education {
+        padding: 80px 20px;
+        background-color: #f9f9f9;
+        text-align: center;
+      }
+      
+      .education h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+      }
+      
+      .education ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      .education li {
+        margin: 10px 0;
+        font-size: 1.1rem;
+      }
+      
+  }
+  

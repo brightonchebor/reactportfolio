@@ -1,0 +1,21 @@
+.skills {
+    padding: 80px 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  .skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+  

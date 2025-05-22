@@ -1,0 +1,41 @@
+/* src/components/Navbar/Navbar.css */
+.navbar {
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .links-desktop {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .links-mobile {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .links-desktop {
+      display: flex;
+      gap: 2rem;
+    }
+    .menu-icon, .links-mobile {
+      display: none;
+    }
+  }
+  
