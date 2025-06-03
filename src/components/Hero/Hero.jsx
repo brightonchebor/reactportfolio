@@ -13,7 +13,7 @@ const Hero = ({ scrollToSection }) => {
           Passionate about building secure and scalable backend systems using Django and Flask.
         </p>
         <div className="hero-buttons">
-          <a href="/Brighton_Chebor_CV.pdf" download>Download CV</a>
+          <a href="reactportfolio/Brighton_Chebor_CV.pdf" download>Download CV</a>
         </div>
       </div>
     </section>
