@@ -7,12 +7,16 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen, scrollToSection }) => {
   const links = ['home', 'about', 'skills', 'projects', 'education', 'contact'];
 
   return (
-    <nav className="navbar">
+    <nav className="navbar" >
       <div className="navbar-container">
-        <div className="brand">Brighton Chebor</div>
+        <div className="brand" onClick={() => scrollToSection('home')} style={{ cursor: 'pointer' }}>
+          Brighton Chebor
+        </div>
         <div className="links-desktop">
           {links.map((link) => (
-            <button key={link} onClick={() => scrollToSection(link)}>{link.charAt(0).toUpperCase() + link.slice(1)}</button>
+            <button key={link} onClick={() => scrollToSection(link)}>
+              {link.charAt(0).toUpperCase() + link.slice(1)}
+            </button>
           ))}
         </div>
         <div className="menu-icon" onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -22,7 +26,9 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen, scrollToSection }) => {
       {isMenuOpen && (
         <div className="links-mobile">
           {links.map((link) => (
-            <button key={link} onClick={() => scrollToSection(link)}>{link.charAt(0).toUpperCase() + link.slice(1)}</button>
+            <button key={link} onClick={() => scrollToSection(link)}>
+              {link.charAt(0).toUpperCase() + link.slice(1)}
+            </button>
           ))}
         </div>
       )}
